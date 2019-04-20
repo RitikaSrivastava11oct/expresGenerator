@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 const Leaders = require('../models/leaders'); // to import the dish model
-var authenticate = require('./authenticate');
+var authenticate = require('../authenticate');
 const leaderRouter = express.Router();
 
 leaderRouter.use(bodyParser.json());
